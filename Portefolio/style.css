@@ -1,0 +1,33 @@
+body {
+    background: linear-gradient(
+            rgba(8, 8, 8, 0.783),
+            rgba(8, 8, 8, 0.688)),
+        url('image.jpg') center/cover;
+
+    height: 80vh;
+    color: white;
+    font-family: Arial, sans-serif;
+}
+
+.tete {
+    text-align: center;
+    margin-top: 300px;
+}
+
+.liens {
+    list-style-type: none;
+    padding: 0;
+    text-align: center;
+    font-size: 30px;
+}
+
+.liens a {
+    text-decoration: none;
+    color: rgb(204, 183, 202);
+    font-size: 24px;
+    
+}
+
+.liens a:hover {
+    color: #864486;
+}

@@ -1,0 +1,137 @@
+body {
+    background-color: #f3e5d9;
+}
+
+.background {
+    background-color: rgb(255, 255, 255);
+    margin-left: 25rem;
+    margin-right: 25rem;
+    margin-top: 5rem;
+    border-radius: 1rem;
+}
+
+.container {
+    padding: 2rem;
+    font-family: none;
+    font-size: 14px;
+    line-height: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+
+    .image-omelette {
+        width: 100%;
+        margin-left: 50%;
+        transform: translateX(-50%);
+        border-radius: 1rem;
+    }
+
+    .principal_title {
+        font-size: 40px;
+        font-family: none;
+    }
+
+    .preparation {
+
+        background-color: #fff7fb;
+        margin-top: 25px;
+        margin-bottom: 35px;
+        padding-left: 2px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        border-radius: 1rem;
+        line-height: 25px;
+        font-size: 13px;
+
+        li {
+            list-style-position: outside;
+            padding-left: 15px;
+        }
+
+        li::marker {
+            color: rgb(152, 41, 130);
+        }
+
+        .preparation_title {
+            color: #8e2767;
+            font-size: 17px;
+            padding-left: 20px;
+        }
+    }
+
+    .ingredients {
+        line-height: 25px;
+        font-size: 13px;
+        margin-bottom: 22px;
+        margin-left: -15px;
+
+        li {
+            list-style-position: outside;
+            padding-left: 15px;
+        }
+
+        li::marker {
+            color: #935236;
+        }
+
+        .ingredients_title {
+            color: #935236;
+            font-family: none;
+            margin-left: 15px;
+        }
+    }
+
+    .instructions {
+        line-height: 23px;
+        font-size: 14px;
+        margin-top: 25px;
+        margin-bottom: 25px;
+        margin-left: -15px;
+
+        li {
+            list-style-position: outside;
+            padding-left: 15px;
+        }
+
+        li::marker {
+            color: #935236;
+        }
+
+        .instructions_title {
+            color: #935236;
+            font-family: none;
+            margin-left: 15px;
+        }
+    }
+
+    .nutrition {
+        line-height: 23px;
+        font-size: 14px;
+        margin-top: 25px;
+
+        table {
+            width: 100%;
+            margin-top: 10px;
+            margin-left: 1rem;
+            border-collapse: collapse;
+        }
+
+        table td {
+            border-bottom: 1px solid #ccc;
+            padding: 8px;
+        }
+
+        table td:first-child {
+            color: #252323;
+        }
+
+        table td :last-child {
+            color: brown;
+            text-align: left;
+            font-weight: bold;
+        }
+
+        .nutrition_title {
+            color: #935236;
+            font-family: none;
+        }
+    }
+}
